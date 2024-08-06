@@ -8,26 +8,24 @@
         <title>Contact Me</title>
     </head>
     <body>
-        <div class="header">
-        <h1>Contact Me</h1>
-        </div>
-            <div class="topnav">
-                <a class="active" href="https://xiaowonton-bug-free-parakeet-v6pxp99v4gj26qj5-8080.app.github.dev/index.html">Home</a>
-                <a href="https://xiaowonton-bug-free-parakeet-v6pxp99v4gj26qj5-8080.app.github.dev/aboutMe.html">About Me</a>
-                <a href="https://xiaowonton-bug-free-parakeet-v6pxp99v4gj26qj5-8080.app.github.dev/hobbies.html">Experience</a>
-                <a href="https://xiaowonton-bug-free-parakeet-v6pxp99v4gj26qj5-8080.app.github.dev/foods.html">Contact Me</a>
-            </div>
-            <h2 style="text-align: center">Here's some of the things I like to do in my spare time!</h2>
-            <div class="columns">
-                <h3>Bouldering</h3>
-                <h3>League of Legends</h3>
-                <h3>Webtoons</h3>
-            </div>
-            <div class="columns">
-                <a href="https://en.wikipedia.org/wiki/Bouldering"><img alt="Woman Bouldering" class="rounded-4" src="images/bouldering_pic.jpeg" width="400" height="300"></a>
-                <a href="https://www.leagueoflegends.com/en-us/"><img alt="League of Legends Logo" src="images/lol_logo.jpg" width="300" height="300"></a>
-                <a href="https://www.webtoons.com/en/"><img alt="Webtoon Logo" class="rounded-4" src="images/webtoon_logo.webp" width="300" height="300"></a>
-            </div>
+                    <div class="header">
+                    <h1>Contact Me</h1>
+                     <div class="container">
+              <form action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+            
+                <label for="subject">Subject</label>
+                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+            
+                <input type="submit" value="Submit">
+            
+              </form>
+            </div> 
         <div class="footer">
             Copyright &#169; Mikala Miller
         </div>
